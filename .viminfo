@@ -1,0 +1,2483 @@
+# Ce fichier viminfo a été généré par Vim 7.3.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernier motif de recherche  :
+~MSle0~/zoom
+
+# Dernières chaînes de substitution :
+$
+
+# Historique ligne de commande (chronologie décroissante) :
+:q
+:wq
+:w
+:!./buildout/bin/buildout -c buildout_chavannes.cfg install template
+:! ogrinfo /var/sig/vecteur/Chavannes/SIT_AT_Sect_protec_polygon.shp SIT_AT_Sect_protec_polygon
+:! ogrinfo /var/sig/vecteur/Chavannes/MOVD_CAD_TPR_CSDUR_S.shp MOVD_CAD_TPR_CSDUR_S
+:! ogrinfo /var/sig/vecteur/Chavannes/MOVD_CAD_TPR_ODL_L.shp MOVD_CAD_TPR_ODL_L
+:!./buildout/bin/buildout -c buildout_chavannes.cfg 
+:vsplit mapserver/cadastre.map.in
+:! ogrinfo /var/sig/vecteur/Chavannes/SIT_IF_BH.shp SIT_IF_BH
+:! ogrinfo /var/sig/vecteur/Chavannes/SIT_PR_Projet_cons_polygon.shp SIT_PR_Projet_cons_polygon
+:vsplit mapserver/symbole.sym
+:! ogrinfo /var/sig/vecteur/Chavannes/MOVD_CAD_TPR_PLIM_P.shp MOVD_CAD_TPR_PLIM_P
+:! ogrinfo /var/sig/vecteur/Chavannes/MOVD_CAD_TPR_COUV_S.shp MOVD_CAD_TPR_COUV_S
+:! ogrinfo /var/sig/vecteur/Chavannes/MOVD_CAD_TPR_BATSS_S.shp MOVD_CAD_TPR_BATSS_S
+:vsplit mapserver/fonts.conf
+:!./buildout/bin/buildout -c buildout_yjn.cfg install template
+:vsplit print/templates/A3_portrait.mako
+:vsplit print/templates/A3_landscape.mako
+:vsplit print/templates/A4_landscape.mako
+:q!
+:'<,'>q
+:vsplit CONST_buildout.cfg
+:set nopaste
+:set paste
+:set path
+: paste
+:vsplit chavannes/static/js/Proj/Lang/en.js
+:vsplit mapserver/infrastructure.map.in
+:! ogrinfo /var/sig/vecteur/Chavannes/MOVD_CAD_TPR_DDP_S.shp MOVD_CAD_TPR_DDP_S
+:! ogrinfo /var/sig/vecteur/Chavannes/MOVD_CAD_TPR_PARV_S.shp MOVD_CAD_TPR_PARV_S
+:set bg=dark
+:set bg dark
+:syntax on
+:vsplit mapserver/cadastre.map
+:! ogrinfo /var/sig/vecteur/Chavannes/MOVD_CAD_TPR_BATHS_P.shp MOVD_CAD_TPR_BATHS_P
+:! ogrinfo /var/sig/vecteur/Chavannes/MOVD_CAD_TPR_BATHS_S.shp MOVD_CAD_TPR_BATHS_S
+:vsplit jsbuild/app.cfg
+:vsplit buildout.cfg
+:vsplit mapserver/c2cgeoportal.map.in
+:vsplit chavannes/templates/index.html
+:vsplit chavannes/templates/viewer.js
+:vsplit setup.py
+:vsplit print/templates/print.mako.in
+:vsplit production.ini.in
+:vsplit development.ini.in
+:vsplit mapserver/affectation.map.in
+:aq
+:s
+:! ls /var/sig/vecteur/Chavannes/OIT_OIT_TPR_PT_ADRESSE_point.dbf
+
+# Historique chaîne de recherche (chronologie décroissante) :
+?/zoom
+?/swit
+?/Born
+?/point
+?/Lim
+?/help
+?/born
+?/Borne
+?/borne
+?/lim
+?/SIT_AT_Sect_protec
+?/OIT_OIT_TPR_PT_ADRESSE_point
+?/SIT_PR_Projet_cons_polygon
+?/MOVD_CAD_TPR_CSDUR
+?/cad_parv_point
+?/mapopacityslider
+?/plan
+?/CN25
+?/imageswiss
+?/ortho
+?/SIT_PR_Projet_cons_li
+?/projet
+?/bati
+?/Bait
+?/BH
+?/Vanne
+?/vanne
+?/chamb
+?/SIT_PR_Projet_cons_po
+?/Couverts pr
+?/Couvertures pr
+?/Lieu di
+?/couvertures pr
+?/CP_SIT_CD_Projet_cons
+?/GrpConstruction
+?/OIT_OIT_TPR_PT_ADRESSE_poi
+?/Adresse			OIT_OIT_TPR_PT_ADRESSE_point													Numéro de police  (Arial fin / H=0.6 / RGB 255-0-0)    Attribut NO_ENTREE	Adresse	1/1'000	X
+?/MOVD_CAD_TPR_LDIT_P
+?/MOVD_CAD_TPR_COUV_S
+?/couv
+?/MovdCouverture"
+?/cad_bat_hs_cadastre
+?/MovdCouverture
+?/parcelle
+?/CdParcelPoly
+?/movd_cad_couv
+?/print
+?/lastPa
+?/MOVD_CAD_TPR_BATHS_S
+?/MOVD_CAD_TPR_BATSS_S
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Registres :
+"0	LINE	0
+	      COLOR 255 255 255
+"1	LINE	0
+	      ANGLE 45
+"2	LINE	0
+	      SYMBOL "hatch"
+"3	LINE	0
+	#    "wms_title" "Couvert"
+"4	LINE	0
+	      WIDTH 2
+"5	LINE	0
+	      WIDTH 2
+"6	LINE	0
+	      WIDTH 2
+"7	CHAR	0
+	  METADATA
+	    "wms_title" "Couvert"
+	    "wms_group_title" "movd_cad_couv_divers"
+	  END
+	
+"8	LINE	0
+	#      COLOR 255 255 255
+"9	LINE	0
+	#      COLOR 255 255 255
+""-	CHAR	0
+	/
+
+# Marques dans le fichier :
+'0  287  8  ~/chavannes/chavannes/templates/viewer.js
+'1  707  10  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+'2  6  90  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+'3  7  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+'4  1  0  templates/viewer.js
+'5  5  50  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+'6  253  57  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+'7  752  24  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+'8  1  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/c2cgeoportal.map.in
+'9  213  10  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+
+# Liste de sauts (le plus récent en premier) :
+-'  287  8  ~/chavannes/chavannes/templates/viewer.js
+-'  191  24  ~/chavannes/chavannes/templates/viewer.js
+-'  197  25  ~/chavannes/chavannes/templates/viewer.js
+-'  1  0  ~/chavannes/chavannes/templates/viewer.js
+-'  707  10  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  211  7  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  1  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  6  90  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  1  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  7  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  1  0  templates/viewer.js
+-'  5  50  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  253  57  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  752  24  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  1  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/c2cgeoportal.map.in
+-'  213  10  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  198  2  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  1  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  277  6  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/affectation.map.in
+-'  1  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/affectation.map.in
+-'  186  19  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/affectation.map.in
+-'  234  19  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/affectation.map.in
+-'  64  34  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/static/js/Proj/Lang/fr.js
+-'  1  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/static/js/Proj/Lang/fr.js
+-'  151  2  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/affectation.map.in
+-'  216  7  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  853  7  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  495  4  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  460  8  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  747  6  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  1011  4  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  168  38  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  361  27  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  358  37  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  360  21  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  333  8  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  339  21  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  337  37  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  340  41  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  375  2  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  364  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+-'  65  33  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/static/js/Proj/Lang/fr.js
+-'  66  21  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/static/js/Proj/Lang/fr.js
+-'  827  7  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  778  4  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  775  12  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  187  4  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  193  6  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  255  40  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  80  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  811  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  692  13  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  725  11  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  794  22  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  929  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  801  10  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  944  2  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  841  20  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  218  12  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  57  11  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  569  6  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  1035  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  781  2  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  772  33  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  863  5  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  769  47  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  766  9  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  761  19  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  942  6  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  433  6  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  338  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  993  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  217  21  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  758  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  756  2  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  59  29  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/static/js/Proj/Lang/fr.js
+-'  73  12  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/c2cgeoportal.map.in
+-'  163  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/affectation.map.in
+-'  1054  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  1036  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  274  12  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  657  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+-'  187  0  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  295  9  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  913  24  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  438  12  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  251  8  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  999  6  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  13  8  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  81  23  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  80  17  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  73  9  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  72  8  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  23  23  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+-'  22  17  /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/chavannes/chavannes/templates/viewer.js
+	"	287	8
+	^	229	11
+	.	229	11
+	+	90	26
+	+	22	1
+	+	27	11
+	+	22	0
+	+	27	9
+	+	22	37
+	+	23	0
+	+	22	60
+	+	22	0
+	+	22	36
+	+	22	0
+	+	22	22
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	9
+	+	22	0
+	+	22	0
+	+	22	0
+	+	23	0
+	+	23	0
+	+	32	51
+	+	35	51
+	+	32	51
+	+	296	239
+	+	305	37
+	+	143	36
+	+	273	71
+	+	392	0
+	+	371	0
+	+	369	8
+	+	368	0
+	+	350	0
+	+	41	0
+	+	1	0
+	+	3	0
+	+	414	0
+	+	40	4
+	+	41	0
+	+	369	4
+	+	370	0
+	+	32	26
+	+	35	29
+	+	296	137
+	+	296	27
+	+	32	26
+	+	296	27
+	+	222	121
+	+	222	0
+	+	221	0
+	+	221	0
+	+	221	0
+	+	219	0
+	+	218	0
+	+	217	0
+	+	216	1
+	+	215	1
+	+	223	1
+	+	229	12
+	+	217	32
+	+	221	0
+	+	220	53
+	+	214	1
+	+	222	11
+	+	223	0
+	+	229	11
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map.in
+	"	707	10
+	^	752	25
+	.	748	0
+	+	114	0
+	+	275	0
+	+	280	0
+	+	281	0
+	+	264	0
+	+	280	11
+	+	320	0
+	+	321	0
+	+	433	11
+	+	427	0
+	+	423	0
+	+	434	0
+	+	433	0
+	+	940	0
+	+	941	0
+	+	931	0
+	+	934	0
+	+	940	12
+	+	236	0
+	+	235	0
+	+	230	0
+	+	231	0
+	+	230	0
+	+	230	0
+	+	235	11
+	+	175	0
+	+	187	0
+	+	194	0
+	+	195	0
+	+	772	34
+	+	772	0
+	+	781	0
+	+	841	17
+	+	794	22
+	+	786	13
+	+	794	0
+	+	1	0
+	+	801	28
+	+	798	0
+	+	826	0
+	+	849	0
+	+	709	0
+	+	719	0
+	+	729	0
+	+	740	0
+	+	739	0
+	+	740	0
+	+	741	0
+	+	742	0
+	+	743	0
+	+	722	0
+	+	732	0
+	+	747	0
+	+	712	0
+	+	710	0
+	+	712	0
+	+	720	0
+	+	722	0
+	+	730	0
+	+	732	0
+	+	747	0
+	+	447	4
+	+	447	13
+	+	493	0
+	+	448	0
+	+	485	0
+	+	490	0
+	+	462	0
+	+	471	0
+	+	479	0
+	+	480	0
+	+	482	12
+	+	473	0
+	+	464	0
+	+	456	0
+	+	455	0
+	+	460	0
+	+	456	0
+	+	447	10
+	+	456	0
+	+	460	18
+	+	469	18
+	+	456	12
+	+	464	0
+	+	473	0
+	+	471	0
+	+	462	0
+	+	480	0
+	+	482	0
+	+	460	32
+	+	469	32
+	+	478	32
+	+	493	0
+	+	495	0
+	+	713	22
+	+	723	22
+	+	733	23
+	+	747	24
+	+	748	0
+	+	748	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/viewer.js
+	"	6	90
+	^	6	91
+	.	6	90
+	+	66	44
+	+	64	47
+	+	54	47
+	+	56	23
+	+	66	37
+	+	11	52
+	+	14	29
+	+	11	59
+	+	20	44
+	+	11	26
+	+	20	16
+	+	20	8
+	+	12	0
+	+	11	59
+	+	20	45
+	+	20	5
+	+	20	5
+	+	20	4
+	+	20	1
+	+	14	60
+	+	20	0
+	+	19	0
+	+	66	80
+	+	66	80
+	+	66	87
+	+	66	439
+	+	66	437
+	+	56	415
+	+	20	5
+	+	19	18
+	+	1	0
+	+	136	40
+	+	127	0
+	+	137	0
+	+	136	0
+	+	135	0
+	+	134	0
+	+	133	0
+	+	132	0
+	+	131	0
+	+	130	0
+	+	129	0
+	+	128	0
+	+	127	0
+	+	126	1
+	+	138	11
+	+	138	12
+	+	126	0
+	+	127	1
+	+	139	0
+	+	137	12
+	+	151	0
+	+	148	29
+	+	151	0
+	+	150	32
+	+	364	0
+	+	353	0
+	+	343	11
+	+	352	13
+	+	353	0
+	+	363	13
+	+	364	0
+	+	364	0
+	+	365	0
+	+	44	0
+	+	167	43
+	+	168	38
+	+	253	100
+	+	253	57
+	+	6	143
+	+	5	50
+	+	6	90
+
+> templates/viewer.js
+	"	1	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/c2cgeoportal.map.in
+	"	1	0
+	^	59	9
+	.	57	0
+	+	72	33
+	+	60	0
+	+	57	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map.in
+	"	213	10
+	^	218	13
+	.	218	12
+	+	979	0
+	+	978	11
+	+	968	0
+	+	967	0
+	+	985	17
+	+	986	15
+	+	1029	17
+	+	1031	15
+	+	1023	0
+	+	1024	0
+	+	1016	0
+	+	1015	0
+	+	1014	0
+	+	1013	0
+	+	1036	0
+	+	1037	0
+	+	51	15
+	+	75	16
+	+	122	15
+	+	144	15
+	+	658	0
+	+	668	0
+	+	669	0
+	+	670	0
+	+	671	0
+	+	701	0
+	+	702	0
+	+	703	0
+	+	704	0
+	+	714	0
+	+	726	0
+	+	735	0
+	+	734	0
+	+	736	0
+	+	737	0
+	+	761	0
+	+	772	0
+	+	773	0
+	+	774	0
+	+	775	0
+	+	791	0
+	+	815	0
+	+	816	0
+	+	817	0
+	+	818	0
+	+	834	0
+	+	858	0
+	+	859	0
+	+	860	0
+	+	861	0
+	+	862	1
+	+	877	0
+	+	905	0
+	+	906	0
+	+	907	0
+	+	908	0
+	+	925	0
+	+	760	11
+	+	725	11
+	+	692	11
+	+	693	0
+	+	1019	0
+	+	974	0
+	+	928	0
+	+	499	12
+	+	508	12
+	+	459	12
+	+	450	12
+	+	402	12
+	+	411	12
+	+	358	11
+	+	316	11
+	+	274	11
+	+	219	13
+	+	186	12
+	+	170	11
+	+	218	12
+	+	274	11
+	+	316	11
+	+	358	11
+	+	692	11
+	+	725	11
+	+	760	11
+	+	725	11
+	+	692	0
+	+	760	13
+	+	725	13
+	+	692	13
+	+	37	12
+	+	61	12
+	+	170	11
+	+	186	11
+	+	182	0
+	+	182	0
+	+	193	0
+	+	218	12
+	+	219	0
+	+	218	14
+	+	219	11
+	+	218	12
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/affectation.map.in
+	"	277	6
+	.	277	0
+	+	19	0
+	+	292	0
+	+	185	14
+	+	194	14
+	+	202	14
+	+	233	14
+	+	251	14
+	+	262	14
+	+	282	14
+	+	161	42
+	+	160	18
+	+	161	43
+	+	172	0
+	+	176	17
+	+	221	12
+	+	224	0
+	+	182	0
+	+	186	0
+	+	182	0
+	+	186	33
+	+	234	0
+	+	186	19
+	+	186	0
+	+	280	0
+	+	273	17
+	+	274	19
+	+	276	23
+	+	277	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/static/js/Proj/Lang/fr.js
+	"	64	34
+	^	64	35
+	.	60	41
+	+	18	24
+	+	22	20
+	+	21	41
+	+	22	32
+	+	21	19
+	+	23	29
+	+	23	37
+	+	23	29
+	+	22	43
+	+	28	35
+	+	29	26
+	+	30	27
+	+	3	21
+	+	4	7
+	+	29	1
+	+	30	1
+	+	9	33
+	+	2	25
+	+	30	30
+	+	31	32
+	+	31	30
+	+	31	27
+	+	31	26
+	+	25	18
+	+	26	13
+	+	24	20
+	+	2	18
+	+	3	11
+	+	4	11
+	+	5	19
+	+	2	0
+	+	2	21
+	+	3	14
+	+	4	14
+	+	5	22
+	+	6	21
+	+	7	23
+	+	8	21
+	+	9	22
+	+	10	19
+	+	11	27
+	+	12	24
+	+	13	26
+	+	14	25
+	+	15	26
+	+	16	26
+	+	17	25
+	+	18	25
+	+	19	25
+	+	20	25
+	+	21	25
+	+	22	25
+	+	23	24
+	+	27	14
+	+	28	27
+	+	29	11
+	+	30	12
+	+	31	32
+	+	32	36
+	+	33	28
+	+	59	35
+	+	64	32
+	+	62	35
+	+	63	35
+	+	64	35
+	+	65	34
+	+	65	34
+	+	66	0
+	+	59	30
+	+	65	36
+	+	66	0
+	+	65	33
+	+	60	121
+	+	60	121
+	+	60	121
+	+	60	75
+	+	60	46
+	+	60	41
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/symbole.sym
+	"	239	22
+	^	239	23
+	.	239	10
+	+	24	9
+	+	32	9
+	+	154	0
+	+	155	0
+	+	156	0
+	+	181	0
+	+	24	0
+	+	250	3
+	+	239	10
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/A4_landscape.mako
+	"	147	23
+	^	147	24
+	.	114	0
+	+	11	65
+	+	159	0
+	+	157	37
+	+	37	24
+	+	41	21
+	+	45	24
+	+	49	31
+	+	41	25
+	+	87	25
+	+	85	0
+	+	88	0
+	+	89	0
+	+	90	0
+	+	92	0
+	+	94	34
+	+	96	0
+	+	95	0
+	+	97	0
+	+	98	0
+	+	101	35
+	+	104	31
+	+	106	19
+	+	151	25
+	+	151	0
+	+	151	0
+	+	151	0
+	+	151	0
+	+	152	0
+	+	154	25
+	+	157	26
+	+	161	2
+	+	131	0
+	+	161	14
+	+	103	0
+	+	37	24
+	+	41	22
+	+	45	24
+	+	49	22
+	+	102	0
+	+	104	70
+	+	49	23
+	+	41	23
+	+	104	62
+	+	45	21
+	+	13	6
+	+	151	29
+	+	151	28
+	+	151	22
+	+	150	36
+	+	151	0
+	+	114	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/A3_landscape.mako
+	"	115	23
+	^	115	24
+	.	115	0
+	+	159	0
+	+	157	36
+	+	12	31
+	+	38	24
+	+	42	21
+	+	46	24
+	+	50	31
+	+	86	0
+	+	88	25
+	+	89	0
+	+	90	0
+	+	91	0
+	+	93	0
+	+	95	25
+	+	96	0
+	+	97	0
+	+	98	0
+	+	99	0
+	+	102	35
+	+	105	69
+	+	107	19
+	+	152	42
+	+	152	0
+	+	152	0
+	+	152	0
+	+	152	0
+	+	154	51
+	+	157	35
+	+	104	0
+	+	12	70
+	+	105	72
+	+	103	0
+	+	117	0
+	+	131	0
+	+	109	0
+	+	108	0
+	+	109	0
+	+	110	0
+	+	111	0
+	+	112	0
+	+	104	0
+	+	23	0
+	+	103	0
+	+	152	0
+	+	114	0
+	+	104	0
+	+	103	0
+	+	104	0
+	+	105	0
+	+	106	0
+	+	107	0
+	+	108	0
+	+	109	0
+	+	110	0
+	+	111	0
+	+	112	0
+	+	110	16
+	+	113	0
+	+	116	0
+	+	152	0
+	+	152	0
+	+	152	0
+	+	152	0
+	+	152	0
+	+	153	0
+	+	154	0
+	+	155	0
+	+	156	0
+	+	157	51
+	+	164	0
+	+	152	29
+	+	152	28
+	+	152	22
+	+	152	0
+	+	152	0
+	+	152	0
+	+	151	0
+	+	152	0
+	+	115	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/A3_portrait.mako
+	"	113	23
+	^	113	24
+	.	113	6
+	+	12	66
+	+	14	21
+	+	160	0
+	+	14	0
+	+	14	0
+	+	14	37
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	27
+	+	14	0
+	+	159	0
+	+	157	0
+	+	155	37
+	+	152	0
+	+	150	0
+	+	149	0
+	+	149	0
+	+	149	0
+	+	149	27
+	+	149	0
+	+	14	0
+	+	35	24
+	+	39	24
+	+	43	24
+	+	47	21
+	+	86	25
+	+	84	0
+	+	87	0
+	+	88	0
+	+	89	0
+	+	91	0
+	+	93	25
+	+	94	0
+	+	95	0
+	+	96	0
+	+	97	0
+	+	100	35
+	+	103	22
+	+	149	34
+	+	152	25
+	+	155	26
+	+	35	28
+	+	43	27
+	+	103	73
+	+	163	0
+	+	13	0
+	+	149	29
+	+	149	28
+	+	149	22
+	+	149	0
+	+	148	0
+	+	150	0
+	+	113	6
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/A4_portrait.mako
+	"	111	23
+	^	111	24
+	.	111	17
+	+	91	0
+	+	89	0
+	+	93	0
+	+	99	0
+	+	135	0
+	+	135	0
+	+	135	0
+	+	148	0
+	+	150	30
+	+	151	25
+	+	112	0
+	+	112	0
+	+	113	0
+	+	135	0
+	+	135	0
+	+	148	0
+	+	150	0
+	+	151	0
+	+	152	0
+	+	153	0
+	+	154	0
+	+	100	0
+	+	89	0
+	+	88	0
+	+	90	0
+	+	91	0
+	+	92	0
+	+	93	0
+	+	99	0
+	+	112	0
+	+	135	0
+	+	135	38
+	+	135	40
+	+	128	0
+	+	127	0
+	+	128	0
+	+	129	0
+	+	130	0
+	+	131	0
+	+	132	0
+	+	133	0
+	+	135	0
+	+	134	0
+	+	135	0
+	+	135	0
+	+	135	30
+	+	135	25
+	+	135	0
+	+	148	0
+	+	150	0
+	+	151	0
+	+	154	0
+	+	153	0
+	+	152	0
+	+	135	0
+	+	86	0
+	+	85	0
+	+	87	0
+	+	91	0
+	+	88	0
+	+	90	0
+	+	92	0
+	+	95	0
+	+	84	42
+	+	82	0
+	+	102	18
+	+	34	23
+	+	42	24
+	+	38	22
+	+	46	22
+	+	12	6
+	+	135	29
+	+	135	28
+	+	135	23
+	+	135	28
+	+	135	29
+	+	135	28
+	+	135	29
+	+	146	0
+	+	135	0
+	+	136	0
+	+	147	14
+	+	135	0
+	+	138	27
+	+	136	29
+	+	137	13
+	+	136	30
+	+	137	25
+	+	137	0
+	+	136	30
+	+	137	25
+	+	136	30
+	+	138	25
+	+	136	30
+	+	137	25
+	+	142	28
+	+	144	26
+	+	137	27
+	+	145	26
+	+	111	17
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/CONST_buildout.cfg
+	"	110	30
+	^	108	5
+	.	107	95
+	+	107	89
+	+	108	10
+	+	106	1
+	+	107	1
+	+	108	0
+	+	107	0
+	+	106	0
+	+	107	1
+	+	108	88
+	+	106	0
+	+	108	5
+	+	107	76
+	+	1	0
+	+	107	61
+	+	109	0
+	+	107	95
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/fonts.conf
+	"	1	0
+	^	3	25
+	.	3	8
+	+	3	8
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/config.yaml
+	"	79	0
+	.	527	0
+	+	367	0
+	+	527	0
+
+> ~/.vimrc
+	"	1	0
+	^	5	13
+	.	5	12
+	+	1	8
+	+	1	0
+	+	1	0
+	+	4	0
+	+	1	0
+	+	9	12
+	+	5	12
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/buildout_chavannes.cfg
+	"	1	0
+
+> ~/chavannes/chavannes/static/js/Proj/Lang/fr.js
+	"	58	35
+	^	59	35
+	.	58	35
+	+	8	28
+	+	24	21
+	+	25	27
+	+	26	25
+	+	20	0
+	+	21	0
+	+	17	16
+	+	26	0
+	+	25	5
+	+	24	5
+	+	26	18
+	+	25	26
+	+	26	0
+	+	25	25
+	+	9	30
+	+	32	13
+	+	33	31
+	+	43	43
+	+	52	27
+	+	56	25
+	+	54	27
+	+	52	35
+	+	50	40
+	+	49	42
+	+	48	29
+	+	47	31
+	+	46	36
+	+	45	37
+	+	44	36
+	+	40	22
+	+	57	31
+	+	58	34
+	+	49	13
+	+	50	13
+	+	58	12
+	+	36	24
+	+	35	41
+	+	36	44
+	+	37	51
+	+	39	27
+	+	38	43
+	+	39	47
+	+	58	37
+	+	59	32
+	+	59	18
+	+	59	34
+	+	59	0
+	+	60	0
+	+	58	35
+
+> ~/chavannes/print/templates/A3_landscape.mako
+	"	62	22
+	^	70	52
+	.	62	22
+	+	193	14
+	+	70	0
+	+	63	22
+	+	62	22
+
+> ~/chavannes/print/templates/A4_landscape.mako
+	"	61	22
+	^	69	52
+	.	61	22
+	+	189	13
+	+	69	0
+	+	62	23
+	+	61	22
+
+> ~/chavannes/print/templates/A3_portrait.mako
+	"	60	22
+	^	67	52
+	.	60	22
+	+	191	1
+	+	67	0
+	+	59	22
+	+	60	22
+
+> ~/chavannes/print/templates/A4_portrait.mako
+	"	1	0
+	^	59	22
+	.	59	21
+	+	133	22
+	+	133	0
+	+	132	0
+	+	122	0
+	+	123	0
+	+	124	0
+	+	125	0
+	+	126	0
+	+	127	0
+	+	128	0
+	+	129	0
+	+	130	0
+	+	131	0
+	+	132	0
+	+	125	0
+	+	128	0
+	+	114	0
+	+	115	3
+	+	116	7
+	+	117	11
+	+	118	13
+	+	120	5
+	+	133	17
+	+	134	0
+	+	114	0
+	+	133	0
+	+	114	0
+	+	120	0
+	+	122	21
+	+	29	31
+	+	23	0
+	+	29	31
+	+	185	0
+	+	66	0
+	+	185	1
+	+	57	0
+	+	56	0
+	+	66	51
+	+	58	24
+	+	59	22
+	+	58	22
+	+	59	21
+
+> /usr/share/vim/vim73/doc/help.txt
+	"	1	0
+
+> ~/chavannes/print/templates/A4A_landscape.mako
+	"	1	0
+
+> ~/chavannes/print/templates/AA_landscape.mako
+	"	1	0
+
+> ~/chavannes/CONST_buildout.cfg
+	"	109	27
+	^	110	30
+	.	110	29
+	+	110	29
+
+> ~/chavannes/buildout.cfg
+	"	31	0
+	.	32	0
+	+	36	10
+	+	37	16
+	+	114	19
+	+	37	0
+	+	38	0
+	+	37	0
+	+	38	4
+	+	112	23
+	+	39	0
+	+	36	29
+	+	36	0
+	+	37	0
+	+	32	0
+	+	32	120
+	+	32	33
+	+	32	120
+	+	32	0
+
+> ~/chavannes/print/config.yaml
+	"	56	2
+	.	56	2
+	+	56	2
+
+> ~/chavannes/mapserver/infrastructure.map.in
+	"	1	0
+	^	185	23
+	.	185	22
+	+	557	0
+	+	555	0
+	+	553	0
+	+	552	0
+	+	503	0
+	+	504	0
+	+	506	0
+	+	508	0
+	+	509	22
+	+	558	11
+	+	610	22
+	+	606	0
+	+	897	0
+	+	890	32
+	+	940	0
+	+	933	28
+	+	938	12
+	+	895	14
+	+	917	11
+	+	874	11
+	+	831	11
+	+	18	0
+	+	496	131
+	+	545	129
+	+	518	15
+	+	517	12
+	+	516	14
+	+	565	14
+	+	566	12
+	+	567	15
+	+	617	15
+	+	618	12
+	+	619	14
+	+	618	11
+	+	619	0
+	+	516	14
+	+	517	11
+	+	518	14
+	+	516	15
+	+	517	12
+	+	518	15
+	+	516	15
+	+	517	12
+	+	516	14
+	+	517	0
+	+	516	16
+	+	502	22
+	+	565	15
+	+	518	15
+	+	550	23
+	+	601	23
+	+	965	23
+	+	1011	23
+	+	1057	23
+	+	1048	0
+	+	1002	0
+	+	956	26
+	+	960	124
+	+	967	0
+	+	968	0
+	+	970	0
+	+	973	0
+	+	974	11
+	+	1006	128
+	+	1013	0
+	+	1014	0
+	+	1016	0
+	+	1019	0
+	+	1020	22
+	+	1052	173
+	+	1059	0
+	+	1060	0
+	+	1062	0
+	+	1064	0
+	+	1065	22
+	+	1069	15
+	+	1070	12
+	+	1071	15
+	+	1024	15
+	+	1025	12
+	+	1026	15
+	+	978	15
+	+	979	12
+	+	980	15
+	+	42	15
+	+	43	12
+	+	44	15
+	+	25	22
+	+	100	19
+	+	42	0
+	+	44	0
+	+	25	0
+	+	100	0
+	+	114	0
+	+	116	0
+	+	139	0
+	+	141	0
+	+	167	0
+	+	169	22
+	+	185	22
+
+> ~/chavannes/mapserver/cadastre.map.in
+	"	657	4
+	^	657	5
+	.	599	10
+	+	147	6
+	+	146	10
+	+	1147	12
+	+	1098	12
+	+	877	18
+	+	297	0
+	+	283	3
+	+	296	18
+	+	838	44
+	+	841	0
+	+	885	23
+	+	370	0
+	+	426	7
+	+	426	0
+	+	426	15
+	+	426	0
+	+	428	0
+	+	402	18
+	+	346	29
+	+	345	18
+	+	403	0
+	+	300	0
+	+	256	31
+	+	255	31
+	+	256	31
+	+	257	31
+	+	268	0
+	+	272	0
+	+	295	12
+	+	289	0
+	+	327	0
+	+	1115	16
+	+	1065	0
+	+	1072	0
+	+	1071	0
+	+	1072	25
+	+	1066	10
+	+	1126	0
+	+	1121	0
+	+	1126	24
+	+	1116	13
+	+	1126	0
+	+	1125	53
+	+	1072	24
+	+	1075	0
+	+	1080	0
+	+	1130	0
+	+	1132	0
+	+	1081	0
+	+	1081	0
+	+	1082	0
+	+	1080	0
+	+	1131	13
+	+	1081	13
+	+	1154	0
+	+	1089	19
+	+	1100	0
+	+	1148	16
+	+	1155	18
+	+	1106	18
+	+	681	0
+	+	678	0
+	+	703	6
+	+	703	4
+	+	697	0
+	+	677	0
+	+	833	3
+	+	786	13
+	+	787	7
+	+	781	0
+	+	779	48
+	+	956	6
+	+	955	11
+	+	940	11
+	+	983	11
+	+	996	24
+	+	999	6
+	+	998	10
+	+	1148	6
+	+	1146	6
+	+	1133	22
+	+	1084	23
+	+	1099	6
+	+	1097	6
+	+	1099	15
+	+	1097	16
+	+	1146	15
+	+	1148	16
+	+	197	6
+	+	199	6
+	+	189	23
+	+	199	15
+	+	198	12
+	+	189	19
+	+	524	11
+	+	551	10
+	+	560	10
+	+	570	10
+	+	590	10
+	+	599	10
+
+> ~/chavannes/mapserver/affectation.map.in
+	"	155	0
+	^	155	0
+	.	156	0
+	+	8	0
+	+	8	0
+	+	6	29
+	+	155	0
+	+	156	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/apache/frontend.conf
+	"	6	16
+	^	6	20
+	.	6	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+	+	1	16
+	+	6	16
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/apache/wsgi.conf
+	"	22	0
+	.	22	0
+	+	29	17
+	+	34	11
+	+	21	0
+	+	22	0
+
+> ~/chavannes/chavannes/static/js/Proj/Lang/en.js
+	"	40	30
+	^	40	31
+	.	40	31
+	+	2	0
+	+	58	36
+	+	59	0
+	+	59	0
+	+	2	33
+	+	3	25
+	+	4	30
+	+	5	24
+	+	6	44
+	+	7	34
+	+	8	23
+	+	9	35
+	+	14	36
+	+	33	23
+	+	31	26
+	+	30	33
+	+	29	22
+	+	41	18
+	+	55	17
+	+	56	24
+	+	57	24
+	+	11	35
+	+	12	36
+	+	13	28
+	+	15	45
+	+	16	48
+	+	23	28
+	+	24	26
+	+	23	42
+	+	25	39
+	+	26	18
+	+	27	16
+	+	32	15
+	+	42	19
+	+	54	20
+	+	53	24
+	+	58	17
+	+	51	24
+	+	52	40
+	+	50	40
+	+	49	33
+	+	48	33
+	+	47	27
+	+	40	31
+
+> ~/chavannes/jsbuild/app.cfg
+	"	56	33
+	^	56	34
+	.	56	33
+	+	164	12
+	+	222	0
+	+	164	0
+	+	202	25
+	+	20	4
+	+	104	4
+	+	236	4
+	+	268	4
+	+	300	4
+	+	109	4
+	+	241	4
+	+	273	4
+	+	305	4
+	+	14	62
+	+	15	60
+	+	99	0
+	+	98	0
+	+	170	62
+	+	231	0
+	+	230	0
+	+	263	0
+	+	262	0
+	+	295	0
+	+	294	0
+	+	42	0
+	+	126	0
+	+	283	21
+	+	251	21
+	+	315	21
+	+	276	0
+	+	283	0
+	+	244	21
+	+	251	0
+	+	308	21
+	+	315	0
+	+	56	33
+
+> ~/chavannes/mapserver/c2cgeoportal.map.in
+	"	76	36
+	.	76	0
+	+	36	0
+	+	37	0
+	+	92	3
+	+	93	31
+	+	94	28
+	+	95	22
+	+	47	8
+	+	77	32
+	+	73	32
+	+	76	36
+	+	76	0
+
+> ~/chavannes/chavannes/templates/index.html
+	"	8	82
+	^	8	98
+	.	8	82
+	+	53	0
+	+	45	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	68	32
+	+	96	8
+	+	98	0
+	+	8	3
+	+	8	82
+
+> ~/chavannes/mapserver/infrastructure.map
+	"	320	9
+	^	229	60
+	.	324	0
+	+	237	16
+	+	228	41
+	+	229	26
+	+	231	0
+	+	227	0
+	+	231	32
+	+	327	31
+	+	229	16
+	+	324	16
+	+	326	28
+	+	324	25
+	+	229	25
+	+	231	0
+	+	229	59
+	+	324	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/cadastre.map
+	"	78	46
+	^	78	47
+	.	78	46
+	+	995	0
+	+	330	21
+	+	326	20
+	+	349	0
+	+	797	0
+	+	258	12
+	+	258	11
+	+	258	12
+	+	258	11
+	+	258	12
+	+	258	11
+	+	258	12
+	+	256	21
+	+	257	12
+	+	258	0
+	+	257	20
+	+	256	0
+	+	255	24
+	+	256	0
+	+	257	0
+	+	256	0
+	+	534	14
+	+	533	0
+	+	723	0
+	+	729	22
+	+	730	6
+	+	727	10
+	+	720	19
+	+	736	16
+	+	236	0
+	+	237	15
+	+	188	20
+	+	195	0
+	+	188	0
+	+	195	0
+	+	188	0
+	+	19	11
+	+	74	0
+	+	85	0
+	+	73	2
+	+	23	32
+	+	78	25
+	+	23	46
+	+	78	46
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/templates/index.html
+	"	1	0
+	^	8	66
+	.	8	66
+	+	6	75
+	+	9	81
+	+	8	88
+	+	8	66
+	+	8	66
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/CONST_CHANGELOG.txt
+	"	94	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/infrastructure.map
+	"	175	16
+	^	175	17
+	.	175	16
+	+	167	19
+	+	177	19
+	+	198	19
+	+	200	12
+	+	201	11
+	+	200	12
+	+	58	22
+	+	59	24
+	+	32	24
+	+	36	0
+	+	32	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	27	0
+	+	26	0
+	+	32	0
+	+	129	22
+	+	131	0
+	+	60	0
+	+	35	0
+	+	60	0
+	+	44	0
+	+	69	0
+	+	115	0
+	+	140	0
+	+	422	0
+	+	464	0
+	+	509	0
+	+	812	0
+	+	851	0
+	+	889	0
+	+	169	11
+	+	174	11
+	+	173	0
+	+	172	14
+	+	175	16
+	+	169	11
+	+	174	11
+	+	175	16
+	+	174	11
+	+	175	16
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/chavannes/static/css/proj.css
+	"	9	14
+	^	4	13
+	.	4	14
+	+	6	1
+	+	9	2
+	+	17	6
+	+	19	0
+	+	18	3
+	+	3	32
+	+	4	14
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/apache/wsgi.conf.in
+	"	22	35
+	^	22	36
+	.	22	18
+	+	28	0
+	+	28	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	21	39
+	+	22	18
+
+> ~/chavannes/apache/frontend.conf
+	"	1	0
+
+> ~/chavannes/apache/wsgi.conf
+	"	29	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/apache/mapserver.conf
+	"	1	15
+	^	7	23
+	.	7	22
+	+	7	22
+	+	5	3
+	+	6	3
+	+	7	22
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/conf/yjacolin.conf
+	"	1	0
+	^	1	22
+	.	1	22
+	+	1	22
+
+> ~/chavannes/buildout_yjn.cfg
+	"	17	0
+	^	17	1
+	.	17	0
+	+	2	10
+	+	6	12
+	+	10	0
+	+	18	0
+	+	10	7
+	+	9	0
+	+	11	0
+	+	11	0
+	+	10	7
+	+	8	20
+	+	8	0
+	+	18	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	10	0
+	+	6	0
+	+	17	11
+	+	16	0
+	+	17	0
+
+> ~/chavannes/CONST_CHANGELOG.txt
+	"	269	7
+	^	167	3
+	.	167	2
+	+	167	2
+
+> ~/chavannes/chavannes/static/build/lang-fr.js
+	"	1	0
+
+> ~/chavannes/print/templates/print.mako
+	"	1	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/buildout/eggs/c2cgeoportal-0.5-py2.6.egg/c2cgeoportal/templates/viewer_base.js
+	"	39	15
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/buildout/eggs/c2cgeoportal-0.5-py2.6.egg/c2cgeoportal/templates/viewer.js
+	"	1	0
+
+> ~/chavannes/development.ini.in
+	"	68	21
+	^	68	22
+	.	68	14
+	+	66	10
+	+	68	14
+
+> ~/chavannes/production.ini.in
+	"	77	17
+	^	77	18
+	.	77	10
+	+	79	14
+	+	77	10
+
+> ~/chavannes/print/templates/print.mako.in
+	"	34	24
+	^	34	25
+	.	34	17
+	+	34	17
+
+> ~/chavannes/setup.py
+	"	21	30
+	^	21	31
+	.	21	31
+	+	19	37
+	+	22	0
+	+	20	108
+	+	20	1
+	+	22	2
+	+	20	20
+	+	21	31
+
+> ~/chavannes/production.ini
+	"	103	0
+
+> ~/chavannes/print/templates/A4_portrait_inherit.mako
+	"	1	0
+
+> ~/chavannes/buildout/eggs/c2cgeoportal-0.5-py2.6.egg/c2cgeoportal/templates/viewer_base.js
+	"	246	43
+
+> ~/chavannes/buildout/eggs/c2cgeoportal-0.5-py2.6.egg/c2cgeoportal/templates/viewer.js
+	"	1	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/buildout/eggs/c2cgeoportal-0.5-py2.6.egg/c2cgeoportal/templates/index_base.html
+	"	37	16
+
+> ~/chavannes/mapserver/main.map.in
+	"	1818	11
+	^	2355	27
+	.	2355	23
+	+	179	40
+	+	180	13
+	+	2470	26
+	+	2473	0
+	+	2470	0
+	+	2472	7
+	+	2481	19
+	+	2480	2
+	+	2470	10
+	+	2469	0
+	+	2485	32
+	+	2486	17
+	+	2498	21
+	+	2499	17
+	+	2464	0
+	+	2970	26
+	+	2971	18
+	+	2965	18
+	+	2966	10
+	+	2983	17
+	+	2995	21
+	+	2996	17
+	+	2971	13
+	+	2976	25
+	+	2977	19
+	+	2997	13
+	+	2997	6
+	+	2990	6
+	+	2997	0
+	+	193	0
+	+	202	7
+	+	202	0
+	+	217	0
+	+	193	0
+	+	216	16
+	+	194	24
+	+	252	7
+	+	267	0
+	+	240	25
+	+	241	20
+	+	261	25
+	+	2340	15
+	+	2320	18
+	+	2309	10
+	+	2310	7
+	+	2310	2
+	+	2321	0
+	+	2328	0
+	+	2318	0
+	+	2310	0
+	+	2328	9
+	+	2328	6
+	+	2328	26
+	+	2302	5
+	+	729	9
+	+	742	7
+	+	743	0
+	+	740	6
+	+	741	16
+	+	721	25
+	+	2309	16
+	+	2310	27
+	+	2313	0
+	+	2328	0
+	+	2329	0
+	+	2340	16
+	+	2320	22
+	+	2309	14
+	+	2320	20
+	+	2323	0
+	+	2309	0
+	+	645	7
+	+	632	13
+	+	2309	13
+	+	2309	0
+	+	2310	28
+	+	2311	7
+	+	2309	0
+	+	2311	13
+	+	2321	1
+	+	2320	0
+	+	2321	20
+	+	2327	6
+	+	2326	26
+	+	2325	10
+	+	2316	0
+	+	2325	10
+	+	2339	6
+	+	2352	0
+	+	2353	28
+	+	2355	24
+	+	2364	25
+	+	2365	18
+	+	2381	6
+	+	2382	16
+	+	2359	6
+	+	2317	6
+	+	2359	7
+	+	2360	0
+	+	2355	23
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/main.map.in
+	"	1	0
+	^	1709	1
+	.	1152	0
+	+	560	1
+	+	580	0
+	+	610	0
+	+	638	0
+	+	663	0
+	+	688	1
+	+	713	0
+	+	741	0
+	+	784	0
+	+	963	0
+	+	1018	0
+	+	1068	0
+	+	1104	0
+	+	1144	1
+	+	1168	1
+	+	1192	1
+	+	1219	0
+	+	1255	0
+	+	1291	0
+	+	1333	0
+	+	1365	1
+	+	1389	1
+	+	1413	1
+	+	1445	1
+	+	1491	1
+	+	1600	1
+	+	1623	1
+	+	1647	1
+	+	1676	0
+	+	1699	1
+	+	1743	17
+	+	1787	1
+	+	1835	1
+	+	1862	1
+	+	1889	1
+	+	1919	0
+	+	1960	0
+	+	2021	0
+	+	2114	0
+	+	2173	1
+	+	2244	0
+	+	2282	0
+	+	2320	0
+	+	2358	0
+	+	2395	0
+	+	2431	0
+	+	2470	1
+	+	2528	0
+	+	2568	0
+	+	2645	0
+	+	2687	0
+	+	2687	11
+	+	2688	0
+	+	2732	0
+	+	2794	0
+	+	2854	0
+	+	2889	0
+	+	2923	0
+	+	2957	0
+	+	2993	0
+	+	3029	1
+	+	3066	1
+	+	3124	1
+	+	3156	1
+	+	3190	1
+	+	3212	1
+	+	180	23
+	+	1708	0
+	+	1709	0
+	+	1710	0
+	+	1711	0
+	+	1712	0
+	+	1713	0
+	+	1714	0
+	+	1715	0
+	+	1723	16
+	+	1732	0
+	+	1731	0
+	+	1720	16
+	+	1714	21
+	+	1733	0
+	+	1734	0
+	+	1735	0
+	+	1736	0
+	+	1737	0
+	+	1738	0
+	+	1739	0
+	+	1740	0
+	+	1741	0
+	+	1743	0
+	+	1744	0
+	+	1742	21
+	+	1743	0
+	+	1708	0
+	+	1709	0
+	+	1710	0
+	+	1843	0
+	+	1844	0
+	+	1870	0
+	+	1152	0
+
+> ~/chavannes/mapserver/main.map
+	"	1	0
+	^	709	1
+	.	709	0
+	+	74	0
+	+	73	6
+	+	75	7
+	+	87	15
+	+	606	0
+	+	709	0
+
+> ~/chavannes/mapserver/c2cgeoportal.map
+	"	2	0
+	^	36	1
+	.	36	0
+	+	37	0
+	+	36	0
+
+> /home/gobez/chavannes/mapserver/main.map
+	"	109	4
+	.	109	0
+	+	109	0
+
+> /home/gobez/chavannes/mapserver/c2cgeoportal.map
+	"	89	2
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/conf/eleu.conf
+	"	1	0
+	^	1	18
+	.	1	18
+	+	1	18
+
+> /home/eleu/chavannes/apache/frontend.conf
+	"	1	0
+
+> /home/eleu/chavannes/buildout_eleu.cfg
+	"	1	0
+
+> /home/gobez/chavannes/buildout_gobez.cfg
+	"	10	0
+	^	10	1
+	.	10	0
+	+	10	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/conf/akohler.conf
+	"	1	20
+	^	1	21
+	.	1	21
+	+	1	21
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/conf/gobez.conf
+	"	1	18
+	^	1	19
+	.	1	19
+	+	1	19
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/conf/chavannes.conf
+	"	1	0
+	^	1	66
+	.	1	66
+	+	1	66
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/buildout.cfg
+	"	1	0
+	.	36	0
+	+	14	20
+	+	24	7
+	+	14	0
+	+	17	0
+	+	14	0
+	+	17	0
+	+	18	0
+	+	15	0
+	+	19	0
+	+	21	0
+	+	19	20
+	+	20	22
+	+	32	0
+	+	35	0
+	+	32	0
+	+	34	100
+	+	35	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	76
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	94
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/A4_portrait_inherit.mako
+	"	1	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/print.mako.in
+	"	1	0
+	^	49	1
+	.	49	0
+	+	37	11
+	+	19	0
+	+	14	9
+	+	16	8
+	+	13	0
+	+	9	0
+	+	61	45
+	+	61	0
+	+	61	15
+	+	61	29
+	+	61	28
+	+	61	14
+	+	61	0
+	+	61	0
+	+	61	0
+	+	61	2
+	+	61	2
+	+	67	2
+	+	67	0
+	+	67	0
+	+	61	0
+	+	61	0
+	+	67	0
+	+	80	0
+	+	61	0
+	+	61	0
+	+	67	0
+	+	80	28
+	+	80	55
+	+	80	28
+	+	80	13
+	+	73	0
+	+	69	0
+	+	61	0
+	+	62	0
+	+	61	0
+	+	62	0
+	+	67	0
+	+	80	0
+	+	49	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/tilecache/tilecache.cfg
+	"	1	0
+
+> /usr/share/vim/vim72/doc/help.txt
+	"	1	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/c2cgeoportal.map
+	"	69	33
+	^	69	34
+	.	69	33
+	+	69	33
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/mapserver/main.map
+	"	164	2
+	.	164	0
+	+	164	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/apache/mapserver.conf.in
+	"	1	0
+	^	7	25
+	.	7	24
+	+	7	24
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/A3_landscape_inherit.mako
+	"	7	0
+	.	7	0
+	+	7	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/A3_portrait_inherit.mako
+	"	7	0
+	^	3	23
+	.	7	0
+	+	7	23
+	+	3	22
+	+	7	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/A4_landscape_inherit.mako
+	"	7	24
+	^	7	25
+	.	7	24
+	+	3	28
+	+	7	24
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/production.ini
+	"	113	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/print.mako
+	"	41	0
+
+> /srv/tomcat/tomcat1/webapps/print-c2cgeoportal-chavannes/config.yaml
+	"	360	0
+	.	360	0
+	+	363	0
+	+	360	0
+
+> /var/www/vhosts/chavannes-des-bois.geocommunes.ch/private/chavannes/print/templates/A4_portrait.mako.save
+	"	197	0
+
+> /var/www/vhosts/peitrequin/private/c2cgeoportal/chavannes/apache/mapserver.conf.in
+	"	8	2
+	^	8	3
+	.	8	3
+	+	5	3
+	+	6	3
+	+	7	3
+	+	8	3
+	+	5	3
+	+	6	3
+	+	7	3
+	+	8	3
+
+> /var/www/vhosts/peitrequin/private/c2cgeoportal/chavannes/apache/mapserver.conf
+	"	1	0
+	.	8	2
+	+	5	3
+	+	6	3
+	+	7	3
+	+	8	2
+
+> /var/www/vhosts/peitrequin/conf/chavannes.conf
+	"	1	0
+	^	1	65
+	.	1	65
+	+	1	65
+
+> /etc/apache2/sites-available/peitrequin
+	"	1	0
+
+> /var/www/vhosts/peitrequin/private/c2cgeoportal/chavannes/apache/frontend.conf
+	"	1	0
+
+> /var/www/vhosts/peitrequin/private/c2cgeoportal/chavannes/chavannes/templates/viewer.js
+	"	49	4
+	^	88	55
+	.	17	0
+	+	76	64
+	+	73	32
+	+	75	35
+	+	76	30
+	+	75	35
+	+	76	53
+	+	77	20
+	+	76	18
+	+	73	35
+	+	7	64
+	+	11	33
+	+	8	55
+	+	73	36
+	+	79	9
+	+	7	0
+	+	77	20
+	+	78	0
+	+	76	0
+	+	74	15
+	+	79	8
+	+	75	12
+	+	76	12
+	+	77	12
+	+	78	23
+	+	75	34
+	+	78	31
+	+	75	38
+	+	78	31
+	+	8	55
+	+	11	57
+	+	7	37
+	+	7	0
+	+	7	65
+	+	78	37
+	+	82	40
+	+	84	15
+	+	88	0
+	+	85	12
+	+	88	24
+	+	87	18
+	+	89	9
+	+	88	38
+	+	89	8
+	+	78	108
+	+	7	1
+	+	7	360
+	+	17	1
+	+	17	354
+	+	7	63
+	+	78	91
+	+	78	0
+	+	78	59
+	+	16	64
+	+	78	152
+	+	88	36
+	+	78	61
+	+	78	61
+	+	16	43
+	+	78	59
+	+	88	24
+	+	78	0
+	+	8	0
+	+	17	0
+
+> /var/www/vhosts/peitrequin/private/c2cgeoportal/chavannes/chavannes/templates/index.html
+	"	46	0
+
+> /var/www/vhosts/peitrequin/private/c2cgeoportal/chavannes/chavannes/static/css/proj.css
+	"	2	52
+	^	2	53
+	.	2	52
+	+	2	31
+	+	7	28
+	+	2	52
