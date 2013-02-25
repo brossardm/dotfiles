@@ -1,0 +1,3 @@
+[submodule "virtualenv-burrito"]
+path = virtualenv-burrito
+url = https://github.com/brainsik/virtualenv-burrito
