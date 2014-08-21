@@ -7,3 +7,16 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+
+" Leader
+let mapleader = ","
+
+" text titles and doc helpers
+nnoremap <leader>= yypVr=
+nnoremap <leader>* yypVr*
+nnoremap <leader>* yypVr*
+
+" Use the same symbols as TextMate for tabstops and EOLs
+set list
+set listchars=tab:▸\
+
