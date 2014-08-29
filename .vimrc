@@ -16,7 +16,9 @@ nnoremap <leader>= yypVr=
 nnoremap <leader>* yypVr*
 nnoremap <leader>* yypVr*
 
+" color syntax highlighting
+syntax on
 " Use the same symbols as TextMate for tabstops and EOLs
-set list
-set listchars=tab:▸\
+" set list
+" set listchars=tab:▸\
 
