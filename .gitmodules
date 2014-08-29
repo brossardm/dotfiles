@@ -1,3 +1,6 @@
 [submodule "virtualenv-burrito"]
 path = virtualenv-burrito
 url = https://github.com/brainsik/virtualenv-burrito
+[submodule ".vim/bundle/vim-html5"]
+	path = .vim/bundle/vim-html5
+	url = git@github.com:kaihendry/vim-html5.git
