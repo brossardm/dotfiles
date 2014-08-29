@@ -1,6 +1,6 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
-export LESS='-q'
+export LESS='-qr'
 export EDITOR=vim
 
 # You may uncomment the following lines if you want `ls' to be colorized:
