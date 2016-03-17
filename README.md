@@ -10,6 +10,7 @@ Install
 ```
 $ cd dotfiles
 $ python install.py
+$ fc-cache -vf ~/.fonts
 ```
 
 vim-HTML5
