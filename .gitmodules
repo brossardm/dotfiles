@@ -2,8 +2,11 @@
 path = virtualenv-burrito
 url = https://github.com/brainsik/virtualenv-burrito
 [submodule ".vim/bundle/vim-html5"]
-	path = .vim/bundle/vim-html5
-    url = git@github.com:kaihendry/vim-html5.git
+path = .vim/bundle/vim-html5
+url = git@github.com:kaihendry/vim-html5.git
 [submodule ".vim/bundle/vim-powerline"]
-     path = .vim/bundle/vim-powerline
-     url = https://github.com/Lokaltog/vim-powerline.git
+	path = .vim/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule ".fonts/ttf-dejavu-powerline"]
+	path = .fonts/ttf-dejavu-powerline
+	url = https://gist.github.com/1630581.git
