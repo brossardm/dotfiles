@@ -14,19 +14,20 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-
 " Leader
 let mapleader = ","
 
 " color syntax highlighting
 syntax on
 
-
 " Use the same symbols as TextMate for tabstops and EOLs
 " set list
 " set listchars=tab:▸\
 
 "" From Pierre Giraud dotfiles
+
+"appearance options
+set t_Co=256
 
 " Soft/hard wrapping
 set wrap
@@ -46,6 +47,8 @@ noremap <leader>* yypVr*
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
 let g:Powerline_symbols = 'fancy'
 call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
+" Always show statusline
+set laststatus=2
 
 " strip all trailing whitespace in the current file
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
