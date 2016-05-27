@@ -30,9 +30,10 @@ syntax on
 set t_Co=256
 
 " Soft/hard wrapping
+" http://vim.wikia.com/wiki/Automatic_word_wrapping
 set wrap
 set textwidth=79
-set formatoptions=qrn1
+set formatoptions=qrn1t
 
 " Fuck you, help key.
 inoremap <F1> <ESC>
