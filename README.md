@@ -9,6 +9,7 @@ Install
 
 ```
 $ cd dotfiles
+$ git submodule update --init
 $ python install.py
 $ fc-cache -vf ~/.fonts
 ```
