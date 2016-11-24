@@ -32,3 +32,6 @@ if [ ! -z "$SSH_AUTH_SOCK" -a "$SSH_AUTH_SOCK" != "$HOME/.ssh/agent_sock" ] ; th
     ln -s "$SSH_AUTH_SOCK" "$HOME/.ssh/agent_sock"
     export SSH_AUTH_SOCK="$HOME/.ssh/agent_sock"
 fi
+
+# added by travis gem
+[ -f /home/yjacolin/.travis/travis.sh ] && source /home/yjacolin/.travis/travis.sh
