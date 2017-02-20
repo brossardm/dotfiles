@@ -19,6 +19,10 @@ let mapleader = ","
 
 " color syntax highlighting
 syntax on
+filetype on
+au BufNewFile,BufRead *.map.mako set filetype=map
+au BufNewFile,BufRead *.js.mako set filetype=js
+au BufNewFile,BufRead *.html.mako set filetype=html
 
 " Use the same symbols as TextMate for tabstops and EOLs
 " set list
