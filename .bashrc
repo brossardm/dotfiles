@@ -9,6 +9,7 @@ export HISTCONTROL=ignoredups
 eval `dircolors`
 alias ls='ls $LS_OPTIONS'
 alias l='ls $LS_OPTIONS -Fahl'
+alias node=nodejs
 
 # Some more alias to avoid making mistakes:
 alias rm='rm -i'
@@ -26,6 +27,16 @@ fi
 if [ -f /etc/bash_completion ]; then
   . /etc/bash_completion
 fi
+
+# Load in the git branch prompt script.
+source ~/.git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWUNTRACKEDFILES=1
+export GIT_PS1_SHOWSTASHSTATE=1
+export GIT_PS1_SHOWUPSTREAM=verbose
+export GIT_PS1_DESCRIBE_STYLE=branch
+export GIT_PS1_SHOWCOLORHINTS=1
+export PROMPT_COMMAND='__git_ps1 "\[\e[1;32m\]\u\[\e[0;39m\]@\[\e[1;36m\]\h\[\e[0;39m\]:\[\e[1;33m\]\w\[\e[1;39m\]" "\n\[\e[0;39m\]$ "'
 
 if [ ! -z "$SSH_AUTH_SOCK" -a "$SSH_AUTH_SOCK" != "$HOME/.ssh/agent_sock" ] ; then
     unlink "$HOME/.ssh/agent_sock" 2>/dev/null
