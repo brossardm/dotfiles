@@ -1,11 +1,10 @@
-========
 dotfiles
 ========
 
 my config files 
 
 Install
-========
+*******
 
 ```
 $ cd dotfiles
