@@ -45,4 +45,10 @@ if [ ! -z "$SSH_AUTH_SOCK" -a "$SSH_AUTH_SOCK" != "$HOME/.ssh/agent_sock" ] ; th
 fi
 
 # added by travis gem
-[ -f /home/yjacolin/.travis/travis.sh ] && source /home/yjacolin/.travis/travis.sh
+[ -f /home/mag/.travis/travis.sh ] && source /home/mag/.travis/travis.sh
+
+# Alias
+alias mag='ssh -A brossard_m@ppcomix -t "cd /home/brossard_m/chatellerault_c2cgeoportal/ ; bash"'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal ||     echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias c2cppcomix='ssh -A c2c@ppcomix'
+alias comix='ssh -A c2c@comix -t "cd /var/www/vhosts/comix.coll-chatelleraudais.loc/private/chatellerault_c2cgeoportal2/ ; bash"'
