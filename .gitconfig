@@ -1,6 +1,6 @@
 [user]
-    name = Yves Jacolin
-    email = yves.jacolin@camptocamp.com
+    name = Magalie Brossard
+    email = magalie.brossard@grand-chatellerault.fr
 [color]
     diff = auto
     status = auto
@@ -27,3 +27,7 @@
     autosetupmerge = false
 [push]
     default = nothing
+[http]
+[http "https://github.com"]
+    proxy = http://proxy.capc-chatellerault.fr:3128
+
