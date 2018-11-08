@@ -44,5 +44,20 @@ if [ ! -z "$SSH_AUTH_SOCK" -a "$SSH_AUTH_SOCK" != "$HOME/.ssh/agent_sock" ] ; th
     export SSH_AUTH_SOCK="$HOME/.ssh/agent_sock"
 fi
 
+#alias python='/usr/bin/python3.5'
+
 # added by travis gem
 [ -f /home/yjacolin/.travis/travis.sh ] && source /home/yjacolin/.travis/travis.sh
+
+
+# Gopass
+_gopass_bash_autocomplete() {
+     local cur opts base
+     COMPREPLY=()
+     cur="${COMP_WORDS[COMP_CWORD]}"
+     opts=$( ${COMP_WORDS[@]:0:$COMP_CWORD} --generate-bash-completion )
+     local IFS=$'\n'
+     COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+     return 0
+ }
+
