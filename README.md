@@ -11,6 +11,9 @@ $ cd dotfiles
 $ git submodule update --init
 $ python install.py
 $ fc-cache -vf ~/.fonts
+$ gopass autocompletion bash (peut être inutile)
+$ complete -F _gopass_bash_autocomplete gopass
+
 ```
 
 vim-HTML5
