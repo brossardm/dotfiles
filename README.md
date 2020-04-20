@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-my config files 
+my config files
 
 Install
 *******
@@ -10,7 +10,6 @@ Install
 $ cd dotfiles
 $ git submodule update --init
 $ python install.py
-$ fc-cache -vf ~/.fonts
 ```
 
 vim-HTML5
